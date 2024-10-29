@@ -1,7 +1,0 @@
-{
-	"extends": ".",
-	"compilerOptions": {
-		"outDir": "./build/esm"
-	},
-	"include": ["src"]
-}

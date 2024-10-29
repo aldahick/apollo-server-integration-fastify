@@ -1,13 +1,11 @@
 {
-	"extends": "@oly_op/tsconfig/tsconfig",
-	"compilerOptions": {
-		"lib": ["ES2021"],
-		"declaration": true,
-		"module": "NodeNext"
-	},
-	"ts-node": {
-		"esm": true,
-		"swc": true
-	},
-	"include": ["src", "scripts", "tests", "jest.config.ts"]
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "outDir": "./dist",
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "include": ["src"]
 }
