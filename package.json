@@ -4,6 +4,7 @@
   "description": "An Apollo Server integration for use with Fastify",
   "license": "MIT",
   "type": "module",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "bugs": "https://github.com/aldahick/apollo-server-integration-fastify/issues",
