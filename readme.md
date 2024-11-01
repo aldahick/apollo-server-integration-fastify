@@ -6,6 +6,8 @@
 
 # Apollo Server Integration for Fastify
 
+This is a fork of the [@as-integrations/fastify](https://www.npmjs.com/package/@as-integrations/fastify) package, updated for Fastify ^5.0.0 by [@aldahick](https://github.com/aldahick).
+
 ## **Introduction**
 
 **An Apollo Server integration for use with Fastify.**
@@ -121,7 +123,7 @@ export const resolvers = {
       if (!context.authorization) {
         throw new Error("Not authorized");
       }
-      
+
       return "Hello world :)";
     },
   },
