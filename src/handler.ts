@@ -42,7 +42,6 @@ export function fastifyApolloHandler<Context extends BaseContext>(
     }
 
     const readable = Readable.from(body.asyncIterator);
-    // @ts-ignore something wrong with the `ReplyType` but not sure what
     return reply.send(readable);
   };
 }
