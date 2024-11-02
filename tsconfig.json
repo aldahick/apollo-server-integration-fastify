@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "target": "ES2023",
-    "module": "NodeNext",
-    "outDir": "./dist",
+    "module": "CommonJS",
+    "moduleResolution": "Node10",
+    "outDir": "./dist/esm",
     "declaration": true,
     "strict": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "skipLibCheck": true
   },
   "include": ["src"]
 }
