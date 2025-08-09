@@ -16,7 +16,7 @@
     "url": "https://github.com/aldahick/apollo-server-integration-fastify.git"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=22"
   },
   "files": [
     "dist"
@@ -31,18 +31,18 @@
     "fastify-plugin": "^5.0.1"
   },
   "peerDependencies": {
-    "@apollo/server": "^4.0.0",
+    "@apollo/server": "^5.0.0",
     "fastify": "^5.0.0"
   },
   "devDependencies": {
-    "@apollo/server": "4.11.1",
-    "@apollo/server-integration-testsuite": "4.11.1",
+    "@apollo/server": "5.0.0",
+    "@apollo/server-integration-testsuite": "5.0.0",
     "@apollo/utils.withrequired": "3.0.0",
-    "@biomejs/biome": "1.9.4",
-    "@types/node": "22.8.4",
-    "@vitest/coverage-v8": "2.1.4",
-    "fastify": "5.0.0",
-    "graphql": "16.9.0",
-    "typescript": "5.6.3"
+    "@biomejs/biome": "2.1.4",
+    "@types/node": "24.2.1",
+    "@vitest/coverage-v8": "3.2.4",
+    "fastify": "5.4.0",
+    "graphql": "16.11.0",
+    "typescript": "5.9.2"
   }
 }

@@ -1,12 +1,22 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.1.4/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!**/*.fixture.json"
+    ]
+  },
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
     "indentWidth": 2
   },
-  "organizeImports": {
-    "enabled": true
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
   },
   "javascript": {
     "parser": {
@@ -23,6 +33,8 @@
       },
       "correctness": {
         "noUnusedImports": "error",
+        "noSwitchDeclarations": "error",
+        "noUnusedVariables": "warn",
         "useExhaustiveDependencies": "off",
         "useHookAtTopLevel": "off"
       },
@@ -35,8 +47,7 @@
         "useForOf": "error",
         "useFragmentSyntax": "error",
         "useImportType": "off",
-        "useShorthandAssign": "error",
-        "useSingleCaseStatement": "error"
+        "useShorthandAssign": "error"
       },
       "suspicious": {
         "noSkippedTests": "error",
@@ -46,7 +57,7 @@
   },
   "overrides": [
     {
-      "include": [
+      "includes": [
         "vitest.config.ts"
       ],
       "linter": {

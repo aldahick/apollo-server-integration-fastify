@@ -1,5 +1,5 @@
 import type { IncomingHttpHeaders } from "node:http";
-import { type HTTPGraphQLRequest, HeaderMap } from "@apollo/server";
+import { HeaderMap, type HTTPGraphQLRequest } from "@apollo/server";
 import type { FastifyRequest } from "fastify";
 
 const httpHeadersToMap = (headers: IncomingHttpHeaders) => {

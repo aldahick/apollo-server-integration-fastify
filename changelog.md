@@ -1,8 +1,12 @@
 # Changelog
 
-## v2.2.0
+## v4.0.0
 
-- **PACKAGE** Update Fastify from 4.x to 5.x [bba2c211](https://github.com/aldahick/apollo-server-integration-fastify/commit/bba2c2118419f241d994b37c0d845df18a44a831#diff-398511da86e1ff72fb1c39a3b14f49a2060d8528ef2baa5c334d19f757157bd3)
+- **PACKAGE** Update Apollo Server from 4.x to 5.x
+
+## v3.0.1
+
+- **PACKAGE** Update Fastify from 4.x to 5.x [bba2c211](https://github.com/aldahick/apollo-server-integration-fastify/commit/bba2c2118419f241d994b37c0d845df18a44a831)
 
 ## v2.1.1
 

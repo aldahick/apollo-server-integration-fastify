@@ -1,5 +1,5 @@
 import { ApolloServer, BaseContext } from "@apollo/server";
-import { PluginMetadata, fastifyPlugin } from "fastify-plugin";
+import { fastifyPlugin, PluginMetadata } from "fastify-plugin";
 
 import { fastifyApolloHandler } from "./handler.js";
 import { ApolloFastifyPluginOptions } from "./types.js";
